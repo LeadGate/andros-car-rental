@@ -1,0 +1,19 @@
+# Andros Car Rental
+
+> Andros Car Rental helps travellers compare and book car rentals.
+
+- Website: https://andros-car-rental.com
+- Email: info@andros-car-rental.com
+
+## Pages
+
+- [Home](https://andros-car-rental.com/)
+- [Port Pickup](https://andros-car-rental.com/gavrio-port-pickup-guide)
+- [Choose Your Car](https://andros-car-rental.com/choosing-the-right-car)
+- [Driving](https://andros-car-rental.com/driving-in-andros)
+- [Day Trips](https://andros-car-rental.com/day-trips-from-andros)
+- [Parking](https://andros-car-rental.com/parking-on-andros)
+- [FAQ](https://andros-car-rental.com/andros-car-rental-faq)
+- [About](https://andros-car-rental.com/about)
+- [Contact](https://andros-car-rental.com/contact)
+- [Privacy Policy](https://andros-car-rental.com/privacy)

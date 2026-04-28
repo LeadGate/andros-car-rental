@@ -31,6 +31,9 @@ const About = () => {
 
       <Section>
         <h1 className="text-3xl md:text-4xl font-bold mb-6">About andros-car-rental.com</h1>
+        <p className="text-gray-700 mb-4 leading-relaxed">
+          <strong>andros-car-rental.com is an independent car rental booking guide</strong> for Andros. <strong>andros-car-rental.com does not own vehicles, operate a rental office, hold deposits, or issue rental contracts.</strong> All bookings, supplier conditions, deposits, insurance terms and final prices are handled by the booking partner or rental supplier shown in the booking widget.
+        </p>
 
         <h2 className="text-2xl font-bold mt-8 mb-3">Who We Are</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
@@ -89,6 +92,12 @@ const About = () => {
           We can be reached by email at <strong>info@andros-car-rental.com</strong> for questions about methodology, corrections, or partnership issues. A real human reads every email, and the team aims to reply within 48 hours on weekdays. We do not operate a phone line, so urgent booking issues such as a flight delay, port change, or vehicle problem must be handled directly with the rental agency or booking platform shown on the confirmation voucher.
         </p>
       </Section>
+    
+      <div className="flex justify-center py-6">
+        <a href="/" className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-primary-foreground font-semibold shadow-md hover:opacity-90 transition">
+          Compare Car Rental Deals
+        </a>
+      </div>
     </Layout>
   );
 };

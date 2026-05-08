@@ -41,7 +41,6 @@ const Contact = () => {
         title="Contact Andros Car Rental | Get in Touch"
         description="Have a question about car rental in Andros? Contact Andros Car Rental for assistance."
         canonical="https://andros-car-rental.com/contact"
-        jsonLd={[{ "@context": "https://schema.org", "@type": "WebPage", "name": "Contact Andros Car Rental", "url": "https://andros-car-rental.com/contact" }]}
       />
 
       <Section>

@@ -121,7 +121,6 @@ const FAQ = () => {
         title="Andros Car Rental FAQ — Pricing, Ferry, Parking"
         description="Answers to the 10 most common questions about renting a car on Andros: pricing, ferry, IDP, parking, insurance, driver age, and Gavrio Port pickup."
         canonical="https://andros-car-rental.com/andros-car-rental-faq"
-        jsonLd={[breadcrumbSchema, faqSchema]}
       />
 
       <Breadcrumbs items={[{ label: "FAQ" }]} />

@@ -58,7 +58,6 @@ const DrivingGuide = () => {
         title="Driving on Andros — KOK 2025 Rules & Roads"
         description="Driving on Andros is the fastest way to reach Gavrio, Batsi, Chora, Korthi, Achla, and the inland villages of Apikia, Vourkoti, and Menites without"
         canonical="https://andros-car-rental.com/driving-in-andros"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Driving Tips" }]} />

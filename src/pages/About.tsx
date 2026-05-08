@@ -24,7 +24,6 @@ const About = () => {
         title="About Andros Car Rental — Methodology and Sources"
         description="An independent comparison guide for car rental on Andros — driving notes, ELSTAT and Andros Routes data, KOK 2025 references, and the consumer protection routes."
         canonical="https://andros-car-rental.com/about"
-        jsonLd={[articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

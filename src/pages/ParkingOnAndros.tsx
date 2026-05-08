@@ -57,7 +57,6 @@ const ParkingOnAndros = () => {
         title="Parking on Andros — Chora, Batsi, Gavrio Lots"
         description="Parking a rental car on Andros is easiest when you match the town, the time of day, and the local rules. Chora uses a pedestrianised centre with parking"
         canonical="https://andros-car-rental.com/parking-on-andros"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Parking On Andros" }]} />

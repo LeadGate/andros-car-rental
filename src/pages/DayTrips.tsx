@@ -57,7 +57,6 @@ const DayTrips = () => {
         title="Andros Day Trips by Car — Routes & Times"
         description="Andros day trips work best when you plan by road type, not just by map distance. The island sits in the Cyclades in the South Aegean, but its interior is"
         canonical="https://andros-car-rental.com/day-trips-from-andros"
-        jsonLd={[breadcrumbSchema, articleSchema]}
       />
 
       <Breadcrumbs items={[{ label: "Day Trips" }]} />

@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 
 const footerLinks = [
-  { label: "Port Pickup", path: "/gavrio-port-pickup-guide" },
-  { label: "Choose Your Car", path: "/choosing-the-right-car" },
-  { label: "Driving", path: "/driving-in-andros" },
-  { label: "Day Trips", path: "/day-trips-from-andros" },
-  { label: "Parking", path: "/parking-on-andros" },
-  { label: "FAQ", path: "/andros-car-rental-faq" },
-  { label: "About", path: "/about" },
-  { label: "Contact", path: "/contact" },
-  { label: "Privacy Policy", path: "/privacy" },
+  { label: "Port Pickup", path: "/gavrio-port-pickup-guide/" },
+  { label: "Choose Your Car", path: "/choosing-the-right-car/" },
+  { label: "Driving", path: "/driving-in-andros/" },
+  { label: "Day Trips", path: "/day-trips-from-andros/" },
+  { label: "Parking", path: "/parking-on-andros/" },
+  { label: "FAQ", path: "/andros-car-rental-faq/" },
+  { label: "About", path: "/about/" },
+  { label: "Contact", path: "/contact/" },
+  { label: "Privacy Policy", path: "/privacy/" },
 ];
 
 const Footer = () => (

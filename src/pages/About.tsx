@@ -61,12 +61,12 @@ const About = () => {
           We focus on car hire decisions that are specific to Andros, not generic travel advice. The core topics are grouped around pickup, vehicle choice, driving, parking, and island logistics.
         </p>
         <ul className="list-disc pl-6 mb-4 text-gray-700 leading-relaxed space-y-2">
-          <li>Pickup logistics at <a href="/gavrio-port-pickup-guide" className="text-primary underline hover:text-accent">Gavrio Port</a>, including ferry timing from Rafina port and handover points near the quay.</li>
-          <li><a href="/choosing-the-right-car" className="text-primary underline hover:text-accent">Choosing the right car for Andros roads</a>, including comparisons between Fiat Panda, Renault Clio, Peugeot 208, Hyundai i10, Toyota Aygo, VW Polo, Skoda Octavia, Hyundai Accent, Dacia Sandero Stepway, Suzuki Vitara, Dacia Duster 4WD, Audi Q3 4WD, Ford Kuga 4WD, VW Cross Touran, Citroën Grand Picasso, and Citroën C4.</li>
+          <li>Pickup logistics at <a href="/gavrio-port-pickup-guide/" className="text-primary underline hover:text-accent">Gavrio Port</a>, including ferry timing from Rafina port and handover points near the quay.</li>
+          <li><a href="/choosing-the-right-car/" className="text-primary underline hover:text-accent">Choosing the right car for Andros roads</a>, including comparisons between Fiat Panda, Renault Clio, Peugeot 208, Hyundai i10, Toyota Aygo, VW Polo, Skoda Octavia, Hyundai Accent, Dacia Sandero Stepway, Suzuki Vitara, Dacia Duster 4WD, Audi Q3 4WD, Ford Kuga 4WD, VW Cross Touran, Citroën Grand Picasso, and Citroën C4.</li>
           <li>Driving rules and KOK September 2025 implications for visitors, especially on narrow roads near Aprovato, Aidonia, Mesathouri, and Sineti.</li>
           <li>Day-trip planning for beaches such as Chrissi Ammos, Agios Petros, Fellos, Kypri, Tis Grias to Pidima, Vitali, Zorkos, Ateni, Achla, Vori, and Lefka, with attention to gradients and road surfaces.</li>
           <li>Parking advice for Chora, Batsi, Gavrio, and Korthi, where summer demand is affected by ferry arrivals and evening restaurant traffic.</li>
-          <li>The <a href="/andros-car-rental-faq" className="text-primary underline hover:text-accent">10-question Andros rental FAQ</a>, which addresses insurance, deposit rules, driver age, road access, and agency selection.</li>
+          <li>The <a href="/andros-car-rental-faq/" className="text-primary underline hover:text-accent">10-question Andros rental FAQ</a>, which addresses insurance, deposit rules, driver age, road access, and agency selection.</li>
         </ul>
 
         <h2 className="text-2xl font-bold mt-8 mb-3">Affiliate Disclosure</h2>

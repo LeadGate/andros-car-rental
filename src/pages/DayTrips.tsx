@@ -105,7 +105,7 @@ const DayTrips = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> The EO Andros provincial road between Gavrio and Chora is narrow in places, and a meltemi crosswind can make overtaking slower and braking distances longer on downhill sections.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Andros car rental" />
+      <ImageDivider image="/2.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -140,7 +140,7 @@ const DayTrips = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> A standard rental with CDW may still leave tyre, glass, or underbody damage inside the excess/deductible, so check whether your contract includes SCDW, FDW, or a true zero excess option before you leave the asphalt.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Andros car rental" />
+      <ImageDivider image="/3.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -174,7 +174,7 @@ const DayTrips = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> For hikers carrying poles, backpacks, and water, a VW Cross Touran or Citroën Grand Picasso gives better cargo space than a small hatchback while still handling paved Andros roads comfortably.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Andros car rental" />
+      <ImageDivider image="/4.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

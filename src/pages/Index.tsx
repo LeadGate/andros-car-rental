@@ -102,7 +102,7 @@ const Index = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Ask every Andros operator whether the contract includes CDW, SCDW, FDW, or a true zero excess policy, because the difference between a deductible and full coverage changes the real trip cost.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Andros car rental" />
+      <ImageDivider image="/2.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -125,7 +125,7 @@ const Index = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Build one route around a beach and one route around a village or landmark, because Andros roads are scenic but slow and a “short” 30-kilometre drive can easily take 40–60 minutes.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Andros car rental" />
+      <ImageDivider image="/3.webp" alt="Andros car rental" />
 
       <Section
         icon={<Shield className="w-6 h-6" />}
@@ -147,7 +147,7 @@ const Index = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> Do not rely on a generic mainland booking quote for Andros, because ferry fees, insurance exclusions, and port timing often change the final price more than the daily rental headline rate.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Andros car rental" />
+      <ImageDivider image="/4.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

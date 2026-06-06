@@ -99,7 +99,7 @@ const ParkingOnAndros = () => {
           <WarningBox><p>⚠️ <strong>Warning:</strong> A car parked on the wrong day, on a solid yellow line, or too close to the waterfront access can be fined up to €150 under the KOK September 2025 rules.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Andros car rental" />
+      <ImageDivider image="/2.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -124,7 +124,7 @@ const ParkingOnAndros = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Korthi works well as a base for trips toward Kochylou, Sineti, and the southern beaches when you want easier parking than in Batsi or Chora.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Andros car rental" />
+      <ImageDivider image="/3.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

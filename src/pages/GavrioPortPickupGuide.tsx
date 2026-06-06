@@ -107,7 +107,7 @@ const GavrioPortPickupGuide = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> If you want a very small car for the village roads, ask for a Toyota Aygo, Fiat Panda, Hyundai i10, Nissan Micra, or Suzuki Ignis; if you want more boot space, request a Peugeot 208, Renault Clio, VW Polo, or Skoda Octavia.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Andros car rental" />
+      <ImageDivider image="/2.webp" alt="Andros car rental" />
 
       <Section
         icon={<Ship className="w-6 h-6" />}

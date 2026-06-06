@@ -5,3 +5,8 @@ dist/
 .env.local
 *.log
 .DS_Store
+
+# deploy artifacts (BOSS)
+__pycache__/
+_zipdeploy.py
+.netlify/

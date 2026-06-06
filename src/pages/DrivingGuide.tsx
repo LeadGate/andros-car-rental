@@ -93,7 +93,7 @@ const DrivingGuide = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Book a compact car such as a Fiat Panda, Hyundai i10, or Suzuki Ignis if your accommodation is in Chora, Apoikia, or Stenies and you expect narrow parking spaces.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/2.webp" alt="Andros car rental" />
+      <ImageDivider image="/2.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -114,7 +114,7 @@ const DrivingGuide = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Open doors with your body blocking the wind side, and park nose-to-wind where possible at beaches like Chrissi Ammos, Agios Petros, and Fellos.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Andros car rental" />
+      <ImageDivider image="/3.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -135,7 +135,7 @@ const DrivingGuide = () => {
           <InfoBox><p>💡 <strong>Tip:</strong> Use official car parks in Gavrio, Batsi, and Chora, and keep a photo of the ticket or app payment in case the agency asks for proof.</p></InfoBox>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Andros car rental" />
+      <ImageDivider image="/4.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}

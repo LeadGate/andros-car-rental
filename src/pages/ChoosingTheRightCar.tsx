@@ -97,7 +97,7 @@ const ChoosingTheRightCar = () => {
           <WarningBox><p>💡 <strong>Tip:</strong> If your plan is village hopping, choose a manual Fiat Panda, Toyota Aygo, or Renault Clio and keep the booking flexible for an extra beach day if the weather stays calm. 💡 <strong>Tip:</strong> Ask for the exact pickup point in Gavrio Port or Chora before confirming, because some agencies stage cars in town rather than directly at the ferry. ⚠️ <strong>Warning:</strong> The meltemi can raise dust on exposed road sections and can make loose gravel feel harsher even when the Beaufort scale still suggests a moderate wind.</p></WarningBox>
       </Section>
 
-      <ImageDivider src="/3.webp" alt="Andros car rental" />
+      <ImageDivider image="/3.webp" alt="Andros car rental" />
 
       <Section
         icon={<Car className="w-6 h-6" />}
@@ -123,7 +123,7 @@ const ChoosingTheRightCar = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">Boat access can be the easier answer when the road looks too demanding for the vehicle you have booked. In high season, a day boat from Chora to Achla can cost around €12.50 return, which is often less than the extra daily charge for a true 4×4 once insurance and fuel are added. That same logic applies to travellers who want a relaxed day near remote coves without dealing with steep gravel or the chance of suspension damage, especially if the itinerary already includes Batsi, Chora, and Korthi by car. If the goal is scenery rather than off-road driving, the boat often beats the stress of a difficult descent.</p>
       </Section>
 
-      <ImageDivider src="/4.webp" alt="Andros car rental" />
+      <ImageDivider image="/4.webp" alt="Andros car rental" />
 
       <Section
         icon={<MapPin className="w-6 h-6" />}

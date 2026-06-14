@@ -23,7 +23,7 @@ const About = () => {
       <SEOHead
         title="About Andros Car Rental — Methodology and Sources"
         description="An independent comparison guide for car rental on Andros — driving notes, ELSTAT and Andros Routes data, KOK 2025 references, and the consumer protection routes."
-        canonical="https://andros-car-rental.com/about"
+        canonical="https://andros-car-rental.com/about/"
       />
 
       <Breadcrumbs items={[{ label: "About" }]} />

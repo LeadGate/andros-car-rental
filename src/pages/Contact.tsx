@@ -40,7 +40,7 @@ const Contact = () => {
       <SEOHead
         title="Contact Andros Car Rental | Get in Touch"
         description="Have a question about car rental in Andros? Contact Andros Car Rental for assistance."
-        canonical="https://andros-car-rental.com/contact"
+        canonical="https://andros-car-rental.com/contact/"
       />
 
       <Section>

@@ -57,7 +57,7 @@ const Index = () => {
       <SEOHead
         title="Andros Car Rental — Compare Local Deals 2026"
         description="Andros car rental works best when you book a local operator in advance at Gavrio Port, because Andros has no airport and most ferry arrivals from Rafina"
-        canonical="https://andros-car-rental.com"
+        canonical="https://andros-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
       />
 

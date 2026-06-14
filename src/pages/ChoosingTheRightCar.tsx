@@ -58,7 +58,7 @@ const ChoosingTheRightCar = () => {
       <SEOHead
         title="Choosing a Car on Andros — 2WD vs 4×4 Verdict"
         description="Andros rental choices are straightforward on the island’s paved network: a Category A or B compact car covers most itineraries, while a true 4×4 only"
-        canonical="https://andros-car-rental.com/choosing-the-right-car"
+        canonical="https://andros-car-rental.com/choosing-the-right-car/"
       />
 
       <Breadcrumbs items={[{ label: "Choosing The Right Car" }]} />

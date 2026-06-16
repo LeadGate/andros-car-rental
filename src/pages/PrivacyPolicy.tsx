@@ -11,7 +11,6 @@ const PrivacyPolicy = () => {
         title="Privacy Policy | Andros Car Rental"
         description="Privacy policy for Andros Car Rental. Learn how we handle your data and protect your privacy."
         canonical="https://andros-car-rental.com/privacy/"
-        noindex
       />
 
       <Breadcrumbs items={[{ label: "Privacy Policy" }]} />

@@ -38,7 +38,7 @@ const Index = () => {
     "@type": "Organization",
     "name": "Andros Car Rental",
     "url": "https://andros-car-rental.com",
-    "logo": "https://andros-car-rental.com/favicon-512x512.png",
+    "logo": "https://andros-car-rental.com/favicon-512.png",
     "description": "Independent car rental comparison guide for Andros. Compare deals from local and international providers.",
     "areaServed": {
       "@type": "Place",

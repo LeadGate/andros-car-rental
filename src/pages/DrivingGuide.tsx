@@ -45,7 +45,7 @@ const DrivingGuide = () => {
       "url": "https://andros-car-rental.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://andros-car-rental.com/favicon-512x512.png"
+        "url": "https://andros-car-rental.com/favicon-512.png"
       }
     },
     "mainEntityOfPage": "https://andros-car-rental.com/driving-in-andros",

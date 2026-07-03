@@ -68,7 +68,7 @@ const DrivingGuide = () => {
         image="/5.webp"
         imageAlt="Car rental in Andros"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
     <AffiliateWidget />
 

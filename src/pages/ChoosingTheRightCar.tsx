@@ -69,7 +69,7 @@ const ChoosingTheRightCar = () => {
         image="/4.webp"
         imageAlt="Car rental in Andros"
         ctaText="Compare Car Rental Deals"
-        ctaHref="#compare"
+        ctaHref="#compare-cars"
       />
     <AffiliateWidget />
 

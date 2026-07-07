@@ -52,18 +52,41 @@ const Index = () => {
     }
   };
 
+  const faqSchema =
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a car on Andros?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, a car is the most practical way to explore Andros because the island's KTEL bus network is limited to the Gavrio–Batsi–Chora corridor. A published timetable typically shows only 4–5 daily departures, and many beaches, villages, and trailheads such as Achla, Vori, and Vitali are not efficiently served. The main exception is a very short stay in Batsi or Chora with no intention of leaving town." }
+      },
+      {
+        "@type": "Question",
+        "name": "Where should I pick up a rental car on Andros?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Gavrio Port is the standard pickup point for Andros rentals because the ferries from Rafina port dock there. Local agencies often meet arrivals at the quay or just outside the port area, and summer arrivals can overlap within 15–30 minutes. The exception is a hotel-delivery booking that has been confirmed in writing by the agency." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I bring a mainland rental to Andros by ferry?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A mainland rental is usually a poor choice because the ferry fee, cross-sea restrictions, and insurance exclusions often erase any savings. Some rental policies add daily ferry surcharges or void CDW, SCDW, and FDW during sea crossings, so a local Andros pickup is typically safer and cheaper. Book an island operator in advance for July and August, when Andros supply sells out." }
+      }
+    ]
+  };
+
   return (
     <Layout>
       <SEOHead
         title="Andros Car Rental — Compare Local Deals 2026"
         description="Andros car rental works best when you book a local operator in advance at Gavrio Port, because Andros has no airport and most ferry arrivals from Rafina"
         canonical="https://andros-car-rental.com/"
-        jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema]}
+        jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
       />
 
       <HeroSection
         title="Andros Island Car Hire: Local Rates, Pickup Points, and Rules"
-        subtitle={<><p className="text-white drop-shadow-md">Andros car rental works best when you book a local operator in advance at Gavrio Port, because Andros has no airport and most ferry arrivals from Rafina port reach the island in tight windows. A compact manual such as a Fiat Panda or Hyundai i10 usually costs €25–€60 per day in shoulder season and €40–€80 per day in peak season, while automatic cars and 4WD models cost more. See the Gavrio port pickup walkthrough for the full walkthrough.</p></>}
+        subtitle={<><p className="text-white drop-shadow-md">Andros car rental works best when you book a local operator in advance at Gavrio Port, because Andros has no airport and most ferry arrivals from Rafina reach the island in tight windows. Andros is not on the big aggregator platforms — its cars are sold directly by island agencies — and as of 7 July 2026 a compact manual such as a Fiat Panda or Hyundai i10 costs about €25–€60 per day in shoulder season and €40–€80 per day in peak season, while automatics and 4WD models cost more. Bringing a mainland rental by ferry is usually restricted, so reserve an island supplier for the 2026 summer weeks.</p></>}
         image="/1.webp"
         imageAlt="Car rental in Andros"
         ctaText="Compare Car Rental Deals"

@@ -9,11 +9,15 @@ import { Search } from "lucide-react";
 //   environments that block tpembd.com
 // - 8s descendant-count failure detector (widget renders via <div>+<a> only,
 //   so iframe/input/button/form selectors do NOT work)
+// Andros is not in the Localrent catalog (city page 404, 2026-07-07) and Greek
+// ferry rules bar taking a mainland/other-island rental across — a Mykonos
+// preselect contradicted the page copy, so country fallback (Greece) it is
+// (same fix as tinos/aegina/paxos, operator-approved 2026-07-05).
 const WIDGET_SRC =
-  "https://tpembd.com/content?trs=517071&shmarker=713621.andros-car-rental&country=18&city=184451&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
+  "https://tpembd.com/content?trs=517071&shmarker=713621.andros-car-rental&country=18&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
 
-const FALLBACK_URL = "https://www.localrent.com/en/greece/mykonos/?marker=713621.andros";
-const FALLBACK_LABEL = "Or browse all Andros rentals on Localrent →";
+const FALLBACK_URL = "https://www.localrent.com/en/greece/?marker=713621.andros";
+const FALLBACK_LABEL = "Or browse Greece rentals on Localrent →";
 
 const AffiliateWidget = () => {
   const containerRef = useRef<HTMLDivElement>(null);

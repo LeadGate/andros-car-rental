@@ -55,7 +55,7 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Driving on Andros — KOK 2025 Rules & Roads"
+        title="Driving on Andros: KOK 2025 Rules, Speed Limits & Roads"
         description="Driving on Andros is the fastest way to reach Gavrio, Batsi, Chora, Korthi, Achla, and the inland villages of Apikia, Vourkoti, and Menites without"
         canonical="https://andros-car-rental.com/driving-in-andros/"
       />

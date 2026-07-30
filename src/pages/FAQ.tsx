@@ -118,7 +118,7 @@ const FAQ = () => {
   return (
     <Layout>
       <SEOHead
-        title="Andros Car Rental FAQ — Pricing, Ferry, Parking"
+        title="Andros Car Rental FAQ: Costs, Ferries & Driving Questions"
         description="Answers to the 10 most common questions about renting a car on Andros: pricing, ferry, IDP, parking, insurance, driver age, and Gavrio Port pickup."
         canonical="https://andros-car-rental.com/andros-car-rental-faq/"
       />

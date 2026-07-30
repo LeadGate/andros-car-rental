@@ -54,7 +54,7 @@ const GavrioPortPickupGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Gavrio Port Car Pickup — Andros Ferry Guide"
+        title="Gavrio Port Car Rental Pickup Guide for Andros Ferries"
         description="Gavrio Port is the only ferry gateway on Andros in the Cyclades, so every port pickup happens on the quay by the passenger gangway, the main port road, or"
         canonical="https://andros-car-rental.com/gavrio-port-pickup-guide/"
       />

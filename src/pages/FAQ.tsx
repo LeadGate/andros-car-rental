@@ -126,8 +126,7 @@ const FAQ = () => {
       <Breadcrumbs items={[{ label: "FAQ" }]} />
 
       <HeroSection
-        title=""
-        subtitle={<><p className="text-white drop-shadow-md"></p></>}
+        title="Andros Car Rental FAQ: 10 Questions Answered"
         image="/8.webp"
         imageAlt="Car rental in Andros"
         ctaText="Compare Car Rental Deals"

@@ -79,7 +79,7 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="Andros Car Rental — Compare Local Deals 2026"
-        description="Andros car rental works best when you book a local operator in advance at Gavrio Port, because Andros has no airport and most ferry arrivals from Rafina"
+        description="Compare independent local rental agencies on Andros island. Pricing, fleet, ferry pickup at Gavrio, 2WD vs 4×4 advice and the new 2025 Greek KOK rules."
         canonical="https://andros-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
       />

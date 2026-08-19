@@ -55,7 +55,7 @@ const DayTrips = () => {
     <Layout>
       <SEOHead
         title="Andros Day Trips by Car: Routes, Times & Road Conditions"
-        description="Andros day trips work best when you plan by road type, not just by map distance. The island sits in the Cyclades in the South Aegean, but its interior is"
+        description="Plan Andros day trips by road type: the paved 25 km West-Coast Beach Loop takes about 90 minutes, and a 30 km mountain crossing takes as long."
         canonical="https://andros-car-rental.com/day-trips-from-andros/"
       />
 

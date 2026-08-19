@@ -55,7 +55,7 @@ const GavrioPortPickupGuide = () => {
     <Layout>
       <SEOHead
         title="Gavrio Port Car Rental Pickup Guide for Andros Ferries"
-        description="Gavrio Port is the only ferry gateway on Andros in the Cyclades, so every port pickup happens on the quay by the passenger gangway, the main port road, or"
+        description="Gavrio is the only ferry port on Andros: Seajets reach it from Rafina in about 45 minutes, with up to 28 weekly sailings in high season."
         canonical="https://andros-car-rental.com/gavrio-port-pickup-guide/"
       />
 

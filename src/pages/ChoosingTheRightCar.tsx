@@ -57,7 +57,7 @@ const ChoosingTheRightCar = () => {
     <Layout>
       <SEOHead
         title="Choosing the Right Rental Car for Andros Island"
-        description="Andros rental choices are straightforward on the island’s paved network: a Category A or B compact car covers most itineraries, while a true 4×4 only"
+        description="A Category A or B compact covers most of Andros at €25–€55/day; only Achla Beach and other unpaved stretches need a real 4×4."
         canonical="https://andros-car-rental.com/choosing-the-right-car/"
       />
 

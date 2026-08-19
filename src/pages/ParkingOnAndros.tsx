@@ -55,7 +55,7 @@ const ParkingOnAndros = () => {
     <Layout>
       <SEOHead
         title="Parking on Andros: Chora, Batsi & Gavrio Port Lots"
-        description="Parking a rental car on Andros is easiest when you match the town, the time of day, and the local rules. Chora uses a pedestrianised centre with parking"
+        description="Park above Chora in the free upper lot of about 80 spaces, behind the beach in Batsi, and clear of the quay in Gavrio at ferry times."
         canonical="https://andros-car-rental.com/parking-on-andros/"
       />
 

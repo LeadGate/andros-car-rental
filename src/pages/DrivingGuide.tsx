@@ -56,7 +56,7 @@ const DrivingGuide = () => {
     <Layout>
       <SEOHead
         title="Driving on Andros: KOK 2025 Rules, Speed Limits & Roads"
-        description="Driving on Andros is the fastest way to reach Gavrio, Batsi, Chora, Korthi, Achla, and the inland villages of Apikia, Vourkoti, and Menites without"
+        description="Driving on Andros under the September 2025 KOK: a 30 km/h default in villages, phone fines up to €2,000, and paved roads to every main town."
         canonical="https://andros-car-rental.com/driving-in-andros/"
       />
 

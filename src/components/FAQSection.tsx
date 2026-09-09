@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 
 interface FAQSectionProps {
   items: Array<{
@@ -14,35 +8,35 @@ interface FAQSectionProps {
 }
 
 /**
- * FAQSection — renders Q&A as accordion with HTML answers.
+ * FAQSection — renders Q&A as visible blocks with HTML answers.
  *
  * IMPORTANT: `answer` is rendered via dangerouslySetInnerHTML so that
  * inline <strong>, <em>, links from generated content render correctly.
- * The wrapping <div> is required because Radix AccordionContent already
- * wraps children in its own <div> — passing dangerouslySetInnerHTML
- * directly to AccordionContent crashes React with a children conflict.
+ * The accordion was removed 2026-09-10: Radix did not render the content of a
+ * closed block, so FAQ answers were missing from the DOM entirely while the
+ * FAQPage schema stayed complete. Answers now render as visible h3 + text.
  *
  * Also strips trailing GPT artefacts like "---" or "**E-E-A-T signal:** ..."
  * residue.
  */
 const FAQSection: React.FC<FAQSectionProps> = ({ items }) => (
-  <Accordion type="single" collapsible className="w-full">
+  <div className="w-full space-y-6">
     {items.map((item, i) => (
-      <AccordionItem key={i} value={`faq-${i}`}>
-        <AccordionTrigger className="text-left font-semibold">
+      <div key={i}>
+        <h3 className="text-lg font-semibold mb-2 text-left">
           {item.question}
-        </AccordionTrigger>
-        <AccordionContent className="text-foreground/80">
+        </h3>
+        <div className="text-foreground/80">
           <div
             className="prose prose-sm max-w-none [&_strong]:text-foreground leading-relaxed"
             dangerouslySetInnerHTML={{
               __html: item.answer.replace(/\s*---\s*$/, "").trim(),
             }}
           />
-        </AccordionContent>
-      </AccordionItem>
+        </div>
+      </div>
     ))}
-  </Accordion>
+  </div>
 );
 
 export default FAQSection;

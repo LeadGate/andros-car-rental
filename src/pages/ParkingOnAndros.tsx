@@ -79,7 +79,7 @@ const ParkingOnAndros = () => {
           <h3 className="text-xl font-bold mt-6 mb-3">Upper Chora car park</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">The Upper Chora car park sits on the approach to Plateia Riva and is the main municipal parking area for Chora. It typically offers about 80 spaces, is free of charge, and is usually a 5 to 10-minute walk from the centre.</p>
           <h3 className="text-xl font-bold mt-6 mb-3">Embirikou approach lot</h3>
-          <p className="text-gray-700 mb-4 leading-relaxed">The Embirikou approach lot is smaller and closer to the pedestrian zone, and it may operate as a paid blue-zone area in July and August. Drivers should check vertical signs carefully, because a wrong-day stop can lead to a fine under the KOK.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">The Embirikou approach lot is smaller and closer to the pedestrian zone, and it may operate as a paid blue-zone area in July and August. Drivers should check vertical signs carefully, because a wrong-day stop can lead to a fine under Law 5209/2025.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Park once in Upper Chora, then walk to Kato Kastro, the Goulandris Museum, and the old centre in one loop to avoid repeated short trips through the restricted streets.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Chora’s historic core is not a place for “quick stops”; a vehicle left past the no-entry signs can be ticketed and may also block access for residents and service traffic.</p></WarningBox>
           <p className="text-gray-700 mb-4 leading-relaxed">The Lower Castle, or Kato Kastro, was built in 1207 by the Venetian nobleman Marino Dandolo and was damaged by German bombing in 1943. Today, the site is reached on foot via its arched bridge, so parking outside the pedestrian area is the correct approach for any cultural visit.</p>
@@ -96,7 +96,7 @@ const ParkingOnAndros = () => {
           <h3 className="text-xl font-bold mt-6 mb-3">Avoid the seafront</h3>
           <p className="text-gray-700 mb-4 leading-relaxed">The seafront promenade in Batsi is narrow and heavily controlled, and on-street spaces can disappear quickly after sunset. Drivers should watch for odd-day and even-day parking signs, because one white line can indicate parking on odd-numbered days and two white lines can indicate parking on even-numbered days.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> For Batsi dinner plans, arrive before 18:30 in peak season if you want a space near the beach; later arrivals often need the municipal lot.</p></InfoBox>
-          <WarningBox><p>⚠️ <strong>Warning:</strong> A car parked on the wrong day, on a solid yellow line, or too close to the waterfront access can be fined up to €150 under the KOK September 2025 rules.</p></WarningBox>
+          <WarningBox><p>⚠️ <strong>Warning:</strong> A car parked on the wrong day, on a solid yellow line, or too close to the waterfront access can be fined up to €150 under Law 5209/2025.</p></WarningBox>
       </Section>
 
       <ImageDivider image="/2.webp" alt="Andros car rental" />
@@ -128,9 +128,9 @@ const ParkingOnAndros = () => {
 
       <Section
         icon={<Car className="w-6 h-6" />}
-        title="KOK September 2025 — Fines, Plate Removal, and Rental-Car Consequences"
+        title="Law 5209/2025 — Fines, Plate Removal, and Rental-Car Consequences"
       >
-          <InfoBox><p>KOK September 2025 sets the enforcement framework for parking violations on Andros, and local police can act quickly on improper parking. Standard fines commonly range from €20 to €150 for blue-zone errors, solid-line parking, blocking access ramps, or obstructing driveways, while Hellenic Police can remove licence plates until payment is made at a police precinct.</p></InfoBox>
+          <InfoBox><p>Law 5209/2025 sets the enforcement framework for parking violations on Andros, and local police can act quickly on improper parking. Standard fines commonly range from €30 to €150 for blue-zone errors, solid-line parking, blocking access ramps, or obstructing driveways, while Hellenic Police can remove licence plates until payment is made at a police precinct.</p></InfoBox>
           <p className="text-gray-700 mb-4 leading-relaxed">The legal basis for the current enforcement approach is Law 4850/2021 Article 25 §3, published in Government Gazette A 208 on 5 Nov 2021, which underpins the road-safety and enforcement structure still applied in 2025. For rental drivers, the practical consequence is simple: the fine is paid first, and the car cannot be treated as fully clear until the local process is completed.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Parking fines are separate from insurance terms, so CDW, SCDW, FDW, zero excess, and full coverage do not automatically cover a parking violation or a plate seizure.</p></WarningBox>
       </Section>

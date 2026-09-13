@@ -79,7 +79,7 @@ const Index = () => {
     <Layout>
       <SEOHead
         title="Andros Car Rental — Compare Local Deals 2026"
-        description="Compare independent local rental agencies on Andros island. Pricing, fleet, ferry pickup at Gavrio, 2WD vs 4×4 advice and the new 2025 Greek KOK rules."
+        description="Compare independent local rental agencies on Andros island. Pricing, fleet, ferry pickup at Gavrio, 2WD vs 4×4 advice and the new Law 5209/2025 rules."
         canonical="https://andros-car-rental.com/"
         jsonLd={[breadcrumbSchema, websiteSchema, organizationSchema, faqSchema]}
       />
@@ -154,7 +154,7 @@ const Index = () => {
         icon={<Shield className="w-6 h-6" />}
         title="Driving Rules, Insurance, and Ferry Risks"
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">Greek rental cars on Andros usually require a card preauthorisation for the excess or deductible, and the exact hold depends on the agency, the model, and the cover selected. Many local contracts reference CDW as the basic collision waiver, SCDW as reduced excess, FDW as fuller protection, and “zero excess” only when tyres, glass, underbody, and key loss are all explicitly included. Under Greek law, Law 4850/2021 Article 25 §3 and Government Gazette A 208 (5 Nov 2021) are relevant to licence recognition for some non-EU visitors, while KOK September 2025 changes also matter for residential speed limits and alcohol enforcement.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">Greek rental cars on Andros usually require a card preauthorisation for the excess or deductible, and the exact hold depends on the agency, the model, and the cover selected. Many local contracts reference CDW as the basic collision waiver, SCDW as reduced excess, FDW as fuller protection, and “zero excess” only when tyres, glass, underbody, and key loss are all explicitly included. Under Greek law, Law 4850/2021 Article 25 §3 and Government Gazette A 208 (5 Nov 2021) are relevant to licence recognition for some non-EU visitors, while Law 5209/2025 also matters, setting the built-up-area default at 30 km/h and tightening alcohol enforcement.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">Ferry travel adds a separate insurance question: many mainland rentals charge a ferry fee or refuse sea-crossing cover, and a vehicle brought from Athens can be more expensive than a local pickup at Gavrio Port. Rafina port remains the practical departure point for Andros, and delays can stack up when the meltemi strengthens and the Beaufort scale reaches force 7 or higher.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> If the contract says insurance is void on ferries or unsealed roads, the driver should not assume CDW or full coverage will automatically pay out after damage on the crossing or on dirt access roads.</p></WarningBox>
       </Section>

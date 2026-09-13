@@ -84,7 +84,7 @@ const DayTrips = () => {
             <li><strong>Best vehicle:</strong> Fiat Panda, Hyundai i10, Toyota Aygo, or Nissan Micra</li>
           </ul>
           <InfoBox><p>💡 <strong>Tip:</strong> Batsi is the best place on the west coast to combine lunch, swimming, and a short walk, because the drive back to Gavrio usually stays under 20 minutes.</p></InfoBox>
-          <WarningBox><p>⚠️ <strong>Warning:</strong> Blue-zone parking in Batsi can trigger a fine under the KOK September 2025 framework if the ticket is not displayed correctly, and some rental desks ask for a preauthorisation before issuing a permit or parking card. See <a href="/parking-on-andros/" className="text-primary underline hover:text-accent">our Batsi blue-zone parking guide</a> for the layout and odd/even-day signs.</p></WarningBox>
+          <WarningBox><p>⚠️ <strong>Warning:</strong> Blue-zone parking in Batsi can trigger a fine under Law 5209/2025 if the ticket is not displayed correctly, and some rental desks ask for a preauthorisation before issuing a permit or parking card. See <a href="/parking-on-andros/" className="text-primary underline hover:text-accent">our Batsi blue-zone parking guide</a> for the layout and odd/even-day signs.</p></WarningBox>
       </Section>
 
       <Section

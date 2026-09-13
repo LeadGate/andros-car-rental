@@ -22,7 +22,7 @@ const About = () => {
     <Layout>
       <SEOHead
         title="About Andros Car Rental — Methodology and Sources"
-        description="An independent comparison guide for car rental on Andros — driving notes, ELSTAT and Andros Routes data, KOK 2025 references, and the consumer protection routes."
+        description="An independent comparison guide for car rental on Andros — driving notes, ELSTAT/Andros Routes data, Law 5209/2025, and consumer protection routes."
         canonical="https://andros-car-rental.com/about/"
       />
 
@@ -45,12 +45,12 @@ const About = () => {
 
         <h2 className="text-2xl font-bold mt-8 mb-3">How We Research</h2>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          We combine first-hand driving notes with source-checked data so that every recommendation has a named basis, a date, or a measurable outcome. The editorial process uses ELSTAT arrivals data, Andros Routes trail maps, Ministry fuel bulletins for the Cyclades, Hellenic Police KOK updates, and verified reviews from 2023–2025.
+          We combine first-hand driving notes with source-checked data so that every recommendation has a named basis, a date, or a measurable outcome. The editorial process uses ELSTAT arrivals data, Andros Routes trail maps, Ministry fuel bulletins for the Cyclades, Hellenic Police Law 5209/2025 updates, and verified reviews from 2023–2025.
         </p>
         <ul className="list-disc pl-6 mb-4 text-gray-700 leading-relaxed space-y-2">
           <li><a href="https://www.statistics.gr/" className="text-primary underline hover:text-accent" rel="noopener" target="_blank">ELSTAT</a> arrival statistics help estimate peak demand at Gavrio Port and the pricing pressure that usually follows ferries from Rafina port.</li>
           <li><a href="https://www.androsroutes.gr/" className="text-primary underline hover:text-accent" rel="noopener" target="_blank">Andros Routes</a> maps and on-island road notes are used to assess turn severity, surface quality, and exposure on roads near Stavropeda crossroads, Menites, and Kochylou.</li>
-          <li>Hellenic Police guidance and the Greek Government Gazette are checked for legal changes, including Law 4850/2021 Article 25 §3 in Government Gazette A 208 (5 Nov 2021), plus the KOK September 2025 enforcement notes that affect tourists.</li>
+          <li>Hellenic Police guidance and the Greek Government Gazette are checked for legal changes, including Law 4850/2021 Article 25 §3 in Government Gazette A 208 (5 Nov 2021), plus the Law 5209/2025 enforcement notes that affect tourists.</li>
           <li>Rental terms are checked for CDW, SCDW, FDW, excess/deductible, franchise, zero excess, full coverage, preauthorisation, and Third-Party Liability so the comparison pages reflect real liability rather than marketing language.</li>
           <li>TripAdvisor and similar review platforms are read for recurring patterns, such as port handovers, late arrivals, or fuel policy disputes, rather than isolated praise or one-off complaints.</li>
         </ul>
@@ -63,7 +63,7 @@ const About = () => {
         <ul className="list-disc pl-6 mb-4 text-gray-700 leading-relaxed space-y-2">
           <li>Pickup logistics at <a href="/gavrio-port-pickup-guide/" className="text-primary underline hover:text-accent">Gavrio Port</a>, including ferry timing from Rafina port and handover points near the quay.</li>
           <li><a href="/choosing-the-right-car/" className="text-primary underline hover:text-accent">Choosing the right car for Andros roads</a>, including comparisons between Fiat Panda, Renault Clio, Peugeot 208, Hyundai i10, Toyota Aygo, VW Polo, Skoda Octavia, Hyundai Accent, Dacia Sandero Stepway, Suzuki Vitara, Dacia Duster 4WD, Audi Q3 4WD, Ford Kuga 4WD, VW Cross Touran, Citroën Grand Picasso, and Citroën C4.</li>
-          <li>Driving rules and KOK September 2025 implications for visitors, especially on narrow roads near Aprovato, Aidonia, Mesathouri, and Sineti.</li>
+          <li>Driving rules and Law 5209/2025 implications for visitors, especially on narrow roads near Aprovato, Aidonia, Mesathouri, and Sineti.</li>
           <li>Day-trip planning for beaches such as Chrissi Ammos, Agios Petros, Fellos, Kypri, Tis Grias to Pidima, Vitali, Zorkos, Ateni, Achla, Vori, and Lefka, with attention to gradients and road surfaces.</li>
           <li>Parking advice for Chora, Batsi, Gavrio, and Korthi, where summer demand is affected by ferry arrivals and evening restaurant traffic.</li>
           <li>The <a href="/andros-car-rental-faq/" className="text-primary underline hover:text-accent">10-question Andros rental FAQ</a>, which addresses insurance, deposit rules, driver age, road access, and agency selection.</li>
@@ -82,7 +82,7 @@ const About = () => {
           Greek rental customers on Andros have formal complaint routes when an agency fails to deliver the service promised on the voucher. The <a href="https://www.synigoros-katanaloti.gr/" className="text-primary underline hover:text-accent" rel="noopener" target="_blank">Greek Consumer Ombudsman</a> (Synigoros tou Katanaloti) handles consumer complaints free of charge, and the <a href="https://www.hcg.gr/en/" className="text-primary underline hover:text-accent" rel="noopener" target="_blank">Hellenic Coast Guard</a> can help with ferry-linked issues at the Gavrio Port Authority on +30 22820 71213.
         </p>
         <p className="text-gray-700 mb-4 leading-relaxed">
-          For a road traffic incident, the Hellenic Police emergency number is 100, and the pan-European emergency number is 112. Law 4850/2021 Article 25 §3 in Government Gazette A 208 (5 Nov 2021) is the useful legal reference for IDP compliance, while KOK September 2025 notes matter if a rental agency questions licensing at pickup.
+          For a road traffic incident, the Hellenic Police emergency number is 100, and the pan-European emergency number is 112. Law 4850/2021 Article 25 §3 in Government Gazette A 208 (5 Nov 2021) is the useful legal reference for IDP compliance, while Law 5209/2025 notes matter if a rental agency questions licensing at pickup.
         </p>
         <WarningBox><p>⚠️ <strong>Warning:</strong> A driver who arrives at Gavrio Port without the correct licence documents can be refused the car even after preauthorisation is taken, because Third-Party Liability is not the same as permission to drive under Greek law.</p></WarningBox>
 

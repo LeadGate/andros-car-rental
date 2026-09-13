@@ -55,8 +55,8 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Driving on Andros: KOK 2025 Rules, Speed Limits & Roads"
-        description="Driving on Andros under the September 2025 KOK: a 30 km/h default in villages, phone fines up to €2,000, and paved roads to every main town."
+        title="Driving on Andros: Law 5209/2025 Rules, Speed Limits & Roads"
+        description="Driving on Andros under Law 5209/2025: a 30 km/h default in villages, phone fines up to €2,000, and paved roads to every main town."
         canonical="https://andros-car-rental.com/driving-in-andros/"
       />
 
@@ -74,11 +74,11 @@ const DrivingGuide = () => {
 
       <Section
         icon={<Shield className="w-6 h-6" />}
-        title="Traffic Rules and KOK September 2025 Changes"
+        title="Traffic Rules and Law 5209/2025 Changes"
       >
-          <InfoBox><p>Andros driving falls under Greek law and local enforcement, and the biggest rule change is the new urban default of 30 km/h under KOK September 2025. On Andros, that limit matters in village streets in Batsi, Chora, Gavrio, Korthi, Mesathouri, Lamira, and Kochylou, especially where signs are missing. A practical example is a rental day in mid-June: a Fiat Panda or Hyundai i10 is usually fine on village roads, but speed and phone-use fines can exceed the cost of the rental if police stop you.</p></InfoBox>
+          <InfoBox><p>Andros driving falls under Greek law and local enforcement, and the biggest rule change is the new urban default of 30 km/h under Law 5209/2025, in force since 1 January 2026. On Andros, that limit matters in village streets in Batsi, Chora, Gavrio, Korthi, Mesathouri, Lamira, and Kochylou, especially where signs are missing. A practical example is a rental day in mid-June: a Fiat Panda or Hyundai i10 is usually fine on village roads, but speed and phone-use fines can exceed the cost of the rental if police stop you.</p></InfoBox>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Greek police can fine distracted driving even for holding a coffee cup; the 2024 Hellenic Police campaign includes a €100 fine and 30-day licence removal for one-hand driving with an object in hand.</p></WarningBox>
-          <p className="text-gray-700 mb-4 leading-relaxed">The strongest enforcement change is the 30 km/h urban default, the mobile-device penalty that can reach €2,000 on repeat offences, and the escalating speeding schedule. The KOK September 2025 framework also strengthens drink-driving sanctions, with penalties rising from €350 for 0.5–0.8 g/L BAC to €1,200 and possible imprisonment above 1.1 g/L. For Andros drivers, the practical caveat is that village limits may be unsignposted, so a cautious 30 km/h approach is safer than relying on GPS timing.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">The strongest enforcement change is the 30 km/h urban default, the mobile-device penalty that can reach €2,000 on repeat offences, and the escalating speeding schedule. Law 5209/2025 also strengthens drink-driving sanctions, with penalties rising from €350 for 0.5–0.8 g/L BAC to €1,200 and possible imprisonment above 1.1 g/L. For Andros drivers, the practical caveat is that village limits may be unsignposted, so a cautious 30 km/h approach is safer than relying on GPS timing.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Treat every narrow village lane as a 30 km/h zone unless an Andros road sign says otherwise, especially near Stavropeda crossroads and the approaches to Chora.</p></InfoBox>
       </Section>
 
@@ -87,8 +87,8 @@ const DrivingGuide = () => {
         title="Road Layout, Speed Limits, and Key Routes"
         alt
       >
-          <p className="text-gray-700 mb-4 leading-relaxed">Andros has no motorways, and the main route network is built around the EO Andros provincial road between Gavrio Port, Batsi, Chora, and Korthi. The official pattern is simple: 50 km/h in built-up areas, 70–80 km/h on open stretches, and lower speeds on narrow settlement roads. In practice, the winding ascent from Chora toward Apoikia, Stenies, and Vourkoti often averages only 35–45 km/h because of bends, gradients, and occasional farm traffic.</p>
-          <DataTable headers={["Route segment", "Typical limit", "Realistic pace", "Notes"]} rows={[["Gavrio Port to Batsi", "50\u201370 km/h", "40\u201355 km/h", "Busy after ferry arrivals"], ["Batsi to Chora", "50\u201370 km/h", "45\u201360 km/h", "Watch for overtakes"], ["Chora to Apoikia and Stenies", "30\u201350 km/h", "35\u201345 km/h", "Narrower and steeper"], ["Chora to Vourkoti", "30\u201350 km/h", "35\u201345 km/h", "Fog is common in shoulder seasons"], ["Korthi to inland hamlets", "30\u201350 km/h", "30\u201340 km/h", "Livestock crossings are possible"]]} />
+          <p className="text-gray-700 mb-4 leading-relaxed">Andros has no motorways, and the main route network is built around the EO Andros provincial road between Gavrio Port, Batsi, Chora, and Korthi. Under Law 5209/2025, the default is simple: 30 km/h in built-up areas (50 km/h only on multi-lane or divided roads), 90 km/h on the open provincial road outside villages, and lower speeds on narrow settlement roads, unless signs say otherwise. In practice, the winding ascent from Chora toward Apoikia, Stenies, and Vourkoti often averages only 35–45 km/h because of bends, gradients, and occasional farm traffic.</p>
+          <DataTable headers={["Route segment", "Statute limit (signs may vary)", "Realistic pace", "Notes"]} rows={[["Gavrio Port to Batsi", "90 open road / 30 in villages", "40\u201355 km/h", "Busy after ferry arrivals"], ["Batsi to Chora", "90 open road / 30 in villages", "45\u201360 km/h", "Watch for overtakes"], ["Chora to Apoikia and Stenies", "90 open road / 30 in villages", "35\u201345 km/h", "Narrower and steeper"], ["Chora to Vourkoti", "90 open road / 30 in villages", "35\u201345 km/h", "Fog is common in shoulder seasons"], ["Korthi to inland hamlets", "90 open road / 30 in villages", "30\u201340 km/h", "Livestock crossings are possible"]]} />
           <p className="text-gray-700 mb-4 leading-relaxed">The main route is relevant for insurance and fuel planning because rental agencies such as Andros Car Rental, Andros Rent a Car, Escape in Andros, Andros Car Hire, and Drive + Ride usually price compact models like the Toyota Aygo, Peugeot 208, Renault Clio, VW Polo, or Skoda Octavia for paved-road use. A useful rule is that the bigger the car, the more caution you need on the EO Andros provincial road, where passing space is limited in bends and village edges.</p>
           <InfoBox><p>💡 <strong>Tip:</strong> Book a compact car such as a Fiat Panda, Hyundai i10, or Suzuki Ignis if your accommodation is in Chora, Apoikia, or Stenies and you expect narrow parking spaces.</p></InfoBox>
       </Section>

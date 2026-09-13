@@ -63,7 +63,7 @@ const GavrioPortPickupGuide = () => {
 
       <HeroSection
         title="Picking Up Your Car at Gavrio Port — What to Expect"
-        subtitle={<><p className="text-white drop-shadow-md">Gavrio Port is the only ferry gateway on Andros in the Cyclades, so every port pickup happens on the quay by the passenger gangway, the main port road, or a nearby lot along the EO Andros provincial road. For more, see the Andros driving rules under the 2025 KOK.</p></>}
+        subtitle={<><p className="text-white drop-shadow-md">Gavrio Port is the only ferry gateway on Andros in the Cyclades, so every port pickup happens on the quay by the passenger gangway, the main port road, or a nearby lot along the EO Andros provincial road. For more, see the Andros driving rules under Law 5209/2025.</p></>}
         image="/3.webp"
         imageAlt="Car rental in Andros"
         ctaText="Compare Car Rental Deals"
@@ -116,7 +116,7 @@ const GavrioPortPickupGuide = () => {
           <p className="text-gray-700 mb-4 leading-relaxed">Andros traffic rises and falls with the ferry timetable, with the sharpest bottlenecks usually appearing on Friday evenings between 18:00 and 21:00 and on Sunday mornings between 09:00 and 11:00. In August, returning visitors and summer-home owners increase congestion around Gavrio Port, Batsi, and the EO Andros provincial road, so a 90-minute buffer is prudent before any onward appointment.</p>
           <p className="text-gray-700 mb-4 leading-relaxed">The island’s sailing pattern is also shaped by the “meltemi”, a strong seasonal wind that can affect the Cyclades and the South Aegean. Conventional ferries such as Blue Star Ferries and Fast Ferries usually tolerate stronger conditions than high-speed vessels, and operators often stop catamarans earlier when the Beaufort scale reaches the upper safety limit.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Ferry cancellations are not unusual when the Beaufort scale climbs to 7 or 8, so do not treat a same-day departure from Rafina port as guaranteed in summer.</p></WarningBox>
-          <p className="text-gray-700 mb-4 leading-relaxed">When delays happen, most Andros agencies hold the reservation without penalty if you send an update promptly. The Hellenic Coast Guard / Gavrio Port Authority can confirm sailing restrictions, and many rental contracts reference the Greek legal framework for road safety and liability, including Law 4850/2021 Article 25 §3, Government Gazette A 208 (5 Nov 2021), and the KOK September 2025 updates used in driver enforcement.</p>
+          <p className="text-gray-700 mb-4 leading-relaxed">When delays happen, most Andros agencies hold the reservation without penalty if you send an update promptly. The Hellenic Coast Guard / Gavrio Port Authority can confirm sailing restrictions, and many rental contracts reference the Greek legal framework for road safety and liability, including Law 4850/2021 Article 25 §3, Government Gazette A 208 (5 Nov 2021), and the Law 5209/2025 updates used in driver enforcement.</p>
       </Section>
 
       <Section

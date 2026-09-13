@@ -130,7 +130,7 @@ const ParkingOnAndros = () => {
         icon={<Car className="w-6 h-6" />}
         title="Law 5209/2025 — Fines, Plate Removal, and Rental-Car Consequences"
       >
-          <InfoBox><p>Law 5209/2025 sets the enforcement framework for parking violations on Andros, and local police can act quickly on improper parking. Standard fines commonly range from €30 to €150 for blue-zone errors, solid-line parking, blocking access ramps, or obstructing driveways, while Hellenic Police can remove licence plates until payment is made at a police precinct.</p></InfoBox>
+          <InfoBox><p>Law 5209/2025 sets the enforcement framework for parking violations on Andros, and local police can act quickly on improper parking. Standard fines commonly range from €30 to €150 for blue-zone errors, solid-line parking, or obstructing driveways; blocking a disabled-access ramp costs €150 plus a 60-day licence and 70-day registration withdrawal, while Hellenic Police can remove licence plates until payment is made at a police precinct.</p></InfoBox>
           <p className="text-gray-700 mb-4 leading-relaxed">The legal basis for the current enforcement approach is Law 4850/2021 Article 25 §3, published in Government Gazette A 208 on 5 Nov 2021, which underpins the road-safety and enforcement structure still applied in 2025. For rental drivers, the practical consequence is simple: the fine is paid first, and the car cannot be treated as fully clear until the local process is completed.</p>
           <WarningBox><p>⚠️ <strong>Warning:</strong> Parking fines are separate from insurance terms, so CDW, SCDW, FDW, zero excess, and full coverage do not automatically cover a parking violation or a plate seizure.</p></WarningBox>
       </Section>

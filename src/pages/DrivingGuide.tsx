@@ -55,7 +55,7 @@ const DrivingGuide = () => {
   return (
     <Layout>
       <SEOHead
-        title="Driving on Andros: Law 5209/2025 Rules, Speed Limits & Roads"
+        title="Driving on Andros: KOK 2025 Rules, Speed Limits & Roads"
         description="Driving on Andros under Law 5209/2025: a 30 km/h default in villages, phone fines up to €2,000, and paved roads to every main town."
         canonical="https://andros-car-rental.com/driving-in-andros/"
       />

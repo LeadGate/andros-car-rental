@@ -15,10 +15,19 @@ import { Search } from "lucide-react";
 // then silently selects the FIRST city of the country — "Agios Nikolaos (Zakynthos)"
 // for country=18. Verified live on all eight affected sites, 2026-08-03.
 // An out-of-catalog id makes the widget render the neutral "Greece" state instead; the
-// visitor picks a city and the CTA is built correctly from that point on. Caveat:
-// clicking "Find" before choosing a city is a dead click, and this is undocumented
-// vendor behaviour — hence the guard below, which hides the widget if it ever goes
-// back to preselecting a city.
+// visitor picks a city and the CTA is built correctly from that point on. This is
+// undocumented vendor behaviour — hence the guard below, which hides the widget if it
+// ever goes back to preselecting a city.
+//
+// Neutral-state CTA (2026-09-14): before a city is chosen the vendor renders both
+// "Find" links with href="&utm_source=widget&utm_content=button" — no host, no "?".
+// The browser resolves that against the current page, so the click was NOT dead: it
+// opened our own page in a new tab under a junk URL, and crawlers followed it. The CTA
+// guard swaps such hrefs for an in-page anchor and turns the click into "open the city
+// list". Once a city is picked the vendor writes a full localrent.com URL and the link
+// works as before. Not the FALLBACK_URL: bookings are attributed via the signed
+// widget's trace, the ?marker= link carries none.
+const CTA_GUARD_HREF = "#compare-cars";
 const WIDGET_SRC =
   "https://tpembd.com/content?trs=517071&shmarker=713621.andros-car-rental&country=18&city=999999999&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
 
@@ -40,6 +49,37 @@ const AffiliateWidget = () => {
     node.addEventListener("pointerdown", () => {
       touchedRef.current = true;
     });
+
+    // CTA guard: only rewrites hrefs that are neither absolute nor our own anchor, so
+    // its own write does not re-trigger it and the vendor's real URL is never touched.
+    const guardLinks = () => {
+      node.querySelectorAll("a[href]").forEach((a) => {
+        const href = a.getAttribute("href") || "";
+        if (href !== CTA_GUARD_HREF && !/^https?:\/\//i.test(href)) {
+          a.setAttribute("href", CTA_GUARD_HREF);
+        }
+      });
+    };
+    const observer = new MutationObserver(guardLinks);
+    observer.observe(node, {
+      subtree: true,
+      childList: true,
+      attributes: true,
+      attributeFilter: ["href"],
+    });
+    // Capture on window and stop propagation: the widget closes its popover on any
+    // outside click, which would shut the list right after we open it.
+    const onGuardedClick = (e: MouseEvent) => {
+      const a = (e.target as Element | null)?.closest?.("a");
+      if (!a || !node.contains(a) || a.getAttribute("href") !== CTA_GUARD_HREF) return;
+      e.preventDefault();
+      e.stopPropagation();
+      window.setTimeout(() => {
+        if (node.querySelector(".place-picker-wrapper")) return;
+        node.querySelector<HTMLElement>(".popover-wrapper .value")?.click();
+      }, 0);
+    };
+    window.addEventListener("click", onGuardedClick, true);
 
     const load = () => {
       if (!containerRef.current) return;
@@ -74,6 +114,11 @@ const AffiliateWidget = () => {
     } else {
       window.setTimeout(load, 1500);
     }
+
+    return () => {
+      observer.disconnect();
+      window.removeEventListener("click", onGuardedClick, true);
+    };
   }, []);
 
   return (

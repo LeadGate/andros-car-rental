@@ -28,10 +28,11 @@ import { Search } from "lucide-react";
 // works as before. Not the FALLBACK_URL: bookings are attributed via the signed
 // widget's trace, the ?marker= link carries none.
 const CTA_GUARD_HREF = "#compare-cars";
-const WIDGET_SRC =
-  "https://tpembd.com/content?trs=517071&shmarker=713621.andros-car-rental&country=18&city=999999999&lang=en&width=100&background=transparent&logo=false&header=false&gearbox=false&cars=false&border=false&footer=false&campaign_id=87&promo_id=4322";
+// Direct Localrent partner program #18201 (2026-09-27), replacing the TravelPayouts tpembd.com embed.
+const WIDGET_SRC = "https://static.localrent.com/widget/v3/app.js";
+const WIDGET_DATA: Record<string, string> = { mrc: "true", affiliate: "18201", apikey: "robcross849_gmail_com", apisign: "b98376a9fcb7e1e80ecc8968be00e092", country: "18", city: "999999999", border: "false", lang: "en", background: "transparent", logo: "false", header: "false", marker: "andros-car-rental" };
 
-const FALLBACK_URL = "https://www.localrent.com/en/greece/?marker=713621.andros";
+const FALLBACK_URL = "https://www.localrent.com/en/greece/?marker=andros&r=18201";
 const FALLBACK_LABEL = "Or browse Greece rentals on Localrent →";
 
 const AffiliateWidget = () => {
@@ -86,6 +87,7 @@ const AffiliateWidget = () => {
       const script = document.createElement("script");
       script.async = true;
       script.src = WIDGET_SRC;
+      Object.assign(script.dataset, WIDGET_DATA);
       script.charset = "utf-8";
       script.onerror = () => setScriptFailed(true);
       containerRef.current.appendChild(script);

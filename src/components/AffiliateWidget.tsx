@@ -15,9 +15,9 @@ import { Search } from "lucide-react";
 // then silently selects the FIRST city of the country — "Agios Nikolaos (Zakynthos)"
 // for country=18. Verified live on all eight affected sites, 2026-08-03.
 // An out-of-catalog id makes the widget render the neutral "Greece" state instead; the
-// visitor picks a city and the CTA is built correctly from that point on. This is
-// undocumented vendor behaviour — hence the guard below, which hides the widget if it
-// ever goes back to preselecting a city.
+// visitor picks a city and the CTA is built correctly from that point on. This was
+// undocumented vendor behaviour. Since the direct widget (2026-09-28) it no longer holds:
+// the widget preselects "Heraklion (Crete)"; the hiding guard was removed 2026-10-17.
 //
 // Neutral-state CTA (2026-09-14): before a city is chosen the vendor renders both
 // "Find" links with href="&utm_source=widget&utm_content=button" — no host, no "?".
@@ -38,18 +38,12 @@ const FALLBACK_LABEL = "Or browse Greece rentals on Localrent →";
 const AffiliateWidget = () => {
   const containerRef = useRef<HTMLDivElement>(null);
   const [scriptFailed, setScriptFailed] = useState(false);
-  const [preselectWrong, setPreselectWrong] = useState(false);
-  const touchedRef = useRef(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
     const node = containerRef.current;
     if (!node) return;
     if (node.querySelector("script")) return;
-
-    node.addEventListener("pointerdown", () => {
-      touchedRef.current = true;
-    });
 
     // CTA guard: only rewrites hrefs that are neither absolute nor our own anchor, so
     // its own write does not re-trigger it and the vendor's real URL is never touched.
@@ -100,16 +94,11 @@ const AffiliateWidget = () => {
         const nodes = all.length + all.reduce((n, el) => n + (el.shadowRoot ? el.shadowRoot.querySelectorAll("*").length : 0), 0);
         if (nodes < 6) {
           setScriptFailed(true);
-          return;
         }
-        // Verdict on the rendered text, not on a selector: the neutral state spells
-        // out "Greece". Anything else means a city got preselected — fail closed.
-        // Skipped once the visitor has touched the widget: by then a city name in
-        // the field is their own choice, not a preselect.
-        if (touchedRef.current) return;
-        if (!/\bGreece\b/.test(containerRef.current.innerText || "")) {
-          setPreselectWrong(true);
-        }
+        // 2026-10-17 operator: the preselect guard is gone. The direct widget has no neutral
+        // "Greece" state any more — every city value preselects "Heraklion (Crete)" — and
+        // the guard hid a working widget. Visitors change the city themselves; Find links
+        // carry r=18201 and the site marker.
       }, 8000);
     };
 
@@ -138,11 +127,9 @@ const AffiliateWidget = () => {
           </div>
           <div
             ref={containerRef}
-            className={`my-4 rounded-lg max-w-3xl mx-auto overflow-visible${
-              preselectWrong ? " hidden" : ""
-            }`}
+            className="my-4 rounded-lg max-w-3xl mx-auto overflow-visible"
           />
-          {(scriptFailed || preselectWrong) && (
+          {scriptFailed && (
             <p className="text-muted-foreground text-sm mb-2">
               Widget couldn't load. Use the direct link below.
             </p>
